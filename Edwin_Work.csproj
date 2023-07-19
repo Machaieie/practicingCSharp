@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6BF1220-8CE7-4489-B3CA-BD7D78526373}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Edwin_Work</RootNamespace>
+    <AssemblyName>Edwin_Work</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Management.cs" />
+    <Compile Include="Classes\ClientSide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\ClientSide.Designer.cs">
+      <DependentUpon>ClientSide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controlers\TextButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controlers\TextButton.Designer.cs">
+      <DependentUpon>TextButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Cadastro.Designer.cs">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Atualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Atualizar.Designer.cs">
+      <DependentUpon>Atualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Cliente.cs" />
+    <Compile Include="Formularios\Depositar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Depositar.Designer.cs">
+      <DependentUpon>Depositar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Levantar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Levantar.Designer.cs">
+      <DependentUpon>Levantar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Listar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Listar.Designer.cs">
+      <DependentUpon>Listar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Management.Designer.cs">
+      <DependentUpon>Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Classes\ClientSide.resx">
+      <DependentUpon>ClientSide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controlers\TextButton.resx">
+      <DependentUpon>TextButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Cadastro.resx">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Atualizar.resx">
+      <DependentUpon>Atualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Depositar.resx">
+      <DependentUpon>Depositar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Levantar.resx">
+      <DependentUpon>Levantar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Listar.resx">
+      <DependentUpon>Listar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Management.resx">
+      <DependentUpon>Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-cottonbro-studio-3943716 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FicheirosTXT\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\323944809_1306623423242341_4829491434641952255_n.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

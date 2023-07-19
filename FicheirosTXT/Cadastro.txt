@@ -1,0 +1,80 @@
+
+<<<<<<<<<<<<<<<<<<<  Cliente 0>>>>>>>>>>>>> 
+Nome: Leopoldo
+Apelido: Matsinhe
+Telefone: 84567894
+Email: leo@gmail.com
+Saldo: 100
+Numero de Conta: 0001144823
+<<<<<<<<<<<<<<<<<<<  Cliente 1>>>>>>>>>>>>> 
+Nome: Amancio
+Apelido: Ubisse
+Telefone: 87234567
+Email: ubisse@gmail.com
+Saldo: 200
+Numero de Conta: 0001144823
+<<<<<<<<<<<<<<<<<<<  Cliente 1>>>>>>>>>>>>> 
+Nome: Edwin
+Apelido: MAchaieie
+Telefone: 84435627
+Email: machaieie@gmail.com
+Saldo: 150
+Numero de Conta: 0001144823
+<<<<<<<<<<<<<<<<<<<  Cliente 1>>>>>>>>>>>>> 
+
+<<<<<<<<<<<<<<<<<<<  Cliente 1>>>>>>>>>>>>> 
+Nome: Ana
+Apelido: Maria
+Telefone: 85432345
+Email: ana@gmail.com
+Saldo: 200
+Numero de Conta: 0001144823
+<<<<<<<<<<<<<<<<<<<  Cliente 1>>>>>>>>>>>>> 
+Nome: Nilza
+Apelido: Agostinho
+Telefone: 8653234
+Email: lino@gmail.com
+Saldo: 100
+Numero de Conta: 0001144143337951
+<<<<<<<<<<<<<<<<<<<  Cliente 1>>>>>>>>>>>>> 
+Nome: Jose
+Apelido: Dalton
+Telefone: 876543212
+Email: amancio@gmail.com
+Saldo: 50
+Numero de Conta: 0001144143337951
+<<<<<<<<<<<<<<<<<<<  Cliente >>>>>>>>>>>>> 
+Nome: Jaime
+Apelido: Mathe
+Telefone: 876543210
+Email: machava@gmail.com
+Saldo: 200
+Numero de Conta: 0001144143337951
+<<<<<<<<<<<<<<<<<<<  Cliente >>>>>>>>>>>>> 
+Nome: Amancio
+Apelido: Ubisse
+Telefone: 98765432
+Email: amancio@gmail.com
+Saldo: 200
+Numero de Conta: 0001144143337951
+<<<<<<<<<<<<<<<<<<<  Cliente >>>>>>>>>>>>> 
+Nome: Amancio
+Apelido: Ubisse
+Telefone: 876543210
+Email: machaieie@gmail.com
+Saldo: 200
+Numero de Conta: 0001144143337951
+<<<<<<<<<<<<<<<<<<<  Cliente >>>>>>>>>>>>> 
+Nome: amancio
+Apelido: jjjjj
+Telefone: 9876543
+Email:   dsdas
+Saldo: 11
+Numero de Conta: 0001144143337951
+<<<<<<<<<<<<<<<<<<<  Cliente >>>>>>>>>>>>> 
+Nome: Amancio
+Apelido: Ubisse
+Telefone: 876543212
+Email: amancio@gmail.com
+Saldo: 100
+Numero de Conta: 0001144143337951

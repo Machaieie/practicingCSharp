@@ -1,0 +1,17 @@
+C:\Users\asus\source\repos\Edwin_Work\bin\Debug\Edwin_Work.exe.config
+C:\Users\asus\source\repos\Edwin_Work\bin\Debug\Edwin_Work.exe
+C:\Users\asus\source\repos\Edwin_Work\bin\Debug\Edwin_Work.pdb
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.ClientSide.resources
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.Controlers.TextButton.resources
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.Formularios.Cadastro.resources
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.Management.resources
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.Properties.Resources.resources
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.csproj.GenerateResource.cache
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.exe
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.pdb
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.Atualizar.resources
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.Formularios.Listar.resources
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.Formularios.Levantar.resources
+C:\Users\asus\source\repos\Edwin_Work\obj\Debug\Edwin_Work.Formularios.Depositar.resources
